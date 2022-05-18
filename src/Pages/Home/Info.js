@@ -20,11 +20,11 @@ const Info = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 mx-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-12'>
 
-            <InfoCard img={clock} bg={true} text={info[0]}></InfoCard>
-            <InfoCard img={marker} bg={false} text={info[1]}></InfoCard>
-            <InfoCard img={phone} bg={true} text={info[2]}></InfoCard>
+            <InfoCard img={clock} bgClass='bg-gradient-to-r from-secondary to-primary' text={info[0]}></InfoCard>
+            <InfoCard img={marker} bgClass='bg-accent' text={info[1]}></InfoCard>
+            <InfoCard img={phone} bgClass='bg-gradient-to-r from-secondary to-primary' text={info[2]}></InfoCard>
         </div >
     );
 };

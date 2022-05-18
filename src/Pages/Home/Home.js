@@ -5,7 +5,6 @@ import Contact from './Contact';
 import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Services from './Services';
-import SpecialService from './SpecialService';
 import Testimonial from './Testimonial';
 
 

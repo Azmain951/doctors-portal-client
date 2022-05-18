@@ -39,10 +39,10 @@ const Testimonial = () => {
                     <h2 className='text-4xl text-accent'>What Our Patients Says</h2>
                 </div>
                 <div>
-                    <img src={quote} alt="" className='w-1/2 ml-auto' />
+                    <img src={quote} alt="" className='w-24 lg:w-48 ml-auto' />
                 </div>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 px-6 mt-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6 mt-12'>
                 {
                     testimonials.map(testimonial => <Feedback key={testimonial._id} testimonial={testimonial}></Feedback>)
                 }
